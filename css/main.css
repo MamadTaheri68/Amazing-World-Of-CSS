@@ -17,8 +17,12 @@ html, body {
     direction: rtl !important;
     background: #ced1db;
 }
+
+p{
+    font-size: 1.25rem;
+}
  .persian{
      font-family: 'Vazir', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-     line-height: 1.62 !important;
-     font-size: 1rem !important;
+
  }
+
