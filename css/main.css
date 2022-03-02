@@ -1,29 +1,5 @@
-/*!
- *   Title:   ResponsiveLayout
- *   Author:  Mohammad Taheri
-!*/
-
-
-
-@font-face {
-    font-family: Vazir;
-    src: url('../fonts/Vazir.eot');
-    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/Vazir.woff') format('woff'), url('../fonts/Vazir.ttf') format('truetype');
-    font-weight: normal;
+* {
+    padding: 0;
+    margin: 0;
+    
 }
-
-html, body {
-    min-height: 100%;
-    direction: rtl !important;
-    background: #ced1db;
-    box-sizing: border-box;
-}
-
-p{
-    font-size: 1rem;
-}
- .persian{
-     font-family: 'Vazir', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
- }
-
