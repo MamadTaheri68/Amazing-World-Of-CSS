@@ -6,32 +6,32 @@
 
 ## Elementary Selectors
 
-* general
+- general
 
-* tag name
-    
-* class
-    
-* id
+- tag name
+- class
+- id
 
 ## Box Model
+
 ### [The_box_model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 
 <img src="./images/MDN_box-model.png" >
 
-* Content 
+- Content
 
-  * Width (min-width, max-width)
+  - Width (min-width, max-width)
 
-  * Height (min-height, max-height)
+  - Height (min-height, max-height)
 
-* Padding
+- Padding
 
-* Margin
+- Margin
 
-* border
+- border
 
 ## Box-sizing :
+
 ### [box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
 
 <img src="./images/box-sizing.png" >
@@ -39,24 +39,52 @@
 * content-box
 * border-box
 
-
-
 ## CSS Reset
 
 ## Dynamic content
-* VW -> ViewPort Width  (like: 100vw)
 
-* VH -> ViewPort Heigth (like: 100vh)
+- VW -> ViewPort Width (like: 100vw)
+
+- VH -> ViewPort Heigth (like: 100vh)
 
 ## Static content
+
 Static size(Absolute width || Absolute height)
 
 ## Reusability
 
 ## Units
-* px
-* em
-* rem
+
+- ### Absolute Lengths
+
+  | Unit Name | Unit Description             |
+  | --------- | ---------------------------- |
+  | cm        | centimeters                  |
+  | mm        | millimeters                  |
+  | in        | inches (1in = 96px = 2.54cm) |
+  | px        | pixels (1px = 1/96th of 1in) |
+  | pt        | points (1pt = 1/72 of 1in)   |
+  | pc        | picas (1pc = 12 pt)          |
+
+- ### Relative Lengths
+
+  | Unit Name | Unit Description                                                                                           |
+  | --------- | ---------------------------------------------------------------------------------------------------------- |
+  | em        | Relative to the font-size of the element (2em means 2 times the size of the current font) (Parent element) |
+  | ex        | Relative to the x-height of the current font (rarely used)                                                 |
+  | ch        | Relative to the width of the "0" (zero)                                                                    |
+  | rem       | Relative to font-size of the root element                                                                  |
+  | vw        | Relative to 1% of the width of the viewport                                                                |
+  | vh        | Relative to 1% of the height of the viewport                                                               |
+  | vmin      | Relative to 1% of viewport's\* smaller dimension                                                           |
+  | vmax      | Relative to 1% of viewport's\* larger dimension                                                            |
+  | %         | Relative to the parent element                                                                             |
+
+- ### change default rem size :
+
+  html {
+  font-size: 62.5%; // This line turns 1rem to 10px instead of 16px
+  }
 
 ## Fonts
 
@@ -66,24 +94,17 @@ Static size(Absolute width || Absolute height)
 
 ## Z-index
 
+---
 
-
-
-
-
-
-
-**************************
 # 02 - Intermediate
 
 ## Intermediate Selectors
 
-* Element > element
+- Element > element
 
-* Element + element
-    
-* Element ~ element
-    
+- Element + element
+- Element ~ element
+
 ## !important
 
 ## Calc()
@@ -93,7 +114,8 @@ Static size(Absolute width || Absolute height)
 ## Max()
 
 ## Pseudo-classes
-* :root
+
+- :root
 
 ## Pseudo-elements
 
@@ -105,41 +127,42 @@ Static size(Absolute width || Absolute height)
 
 ## CSS Grid Layout
 
+---
 
-
-
-**************************
 # 03 - Advanced
 
 ## Animation
+
 ## Media Query
 
 ## Filter (graphical effects)
-* blur
 
-* brightness
+- blur
 
-* contrast
+- brightness
 
-* drop-shadow
+- contrast
 
-* grayscale
+- drop-shadow
 
-* hue-rotate
+- grayscale
 
-* invert
+- hue-rotate
 
-* opacity
+- invert
 
-* saturate
+- opacity
 
-* sepia
+- saturate
 
+- sepia
 
-**************************
+---
+
 # 04 - Examples
+
 ## Icon style (`<i></i>`)
 
 ## Link style (`<a></a>`)
 
-## Modal 
+## Modal
