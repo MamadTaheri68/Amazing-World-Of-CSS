@@ -87,8 +87,26 @@ Static size(Absolute width || Absolute height)
   }
 
 ## Fonts
+ * font-family
+ * font-style
+    * normal
+    * italic
+    * oblique
+ * font-weight
+     * normal
+     * bold
+     * 100
+ * font-variant
+ * font-size
+
 
 ## Display
+ * none
+ * block
+ * inline
+ * inline-block
+ * flex
+ * grid
 
 ## Overflow
 
