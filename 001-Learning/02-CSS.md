@@ -106,28 +106,76 @@ Static size(Absolute width || Absolute height)
  * inline
  * inline-block
  * flex
-    * flex-direction
-      * `row` 
-      * `row-reverse` 
-      * `column` 
-      * `column-reverse` 
+    ### 1-flex-direction
+      * row 
+      * row-reverse
+      * column 
+      * column-reverse
 
-    ### flex axis:
+    ### 2-flex axis:
+      * ### main 
+          main is exact the flex-direction Horizontal or vertical type
 
-      * #### main
+          <img src="./images/flex-1.png" > 
+
+          <img src="./images/flex-2.png" >
+
+      * ### cross 
+          main is oposite of the flex-direction Horizontal or vertical type
+
+          <img src="./images/flex-3.png" > 
+          
+          <img src="./images/flex-4.png" > 
+
+    ### 3-justify-content
+      This is the main axis selector
+      * flex-start : `Default`
+      * center
+      * flex-end
+      * space-between
+      * space-around
+      * space-evenly
+    
+    ### 4-align-items
+      This is the cross axis selector
+      * flex-start : `Default`
+      * center
+      * flex-end
+      * stretch
+
+    ### 5-flex-wrap
+      This property switches flex container between one-line and multi-line
+      * wrap
+      * nowrap : `Default`
+      * wrap-reverse
+
+    ### 6-flex-flow  
+      This property combines flex-direction & flex-wrap   `flex-direction and/or flex-wrap`
+      * row
+      * column
+      * wrap
+      * nowrap
+      * row wrap
+      * row nowrap
+      * column wrap
+      * column nowrap
+
+    ### 7-flex-basis
+      This property defines the size of any item according to the available space. It's initial value is: `auto`.
 
 
-        <img src="./images/flex-1.png" >
+    ### 8-flex-grow
+      This property defines the grow size in main axis from the flex-basis. It will stretch the item to the available space
 
 
-        <img src="./images/flex-2.png" >
-
-      * #### cross
-
-        <img src="./images/flex-3.png" >
+    ### 9-flex-shrink
 
 
-        <img src="./images/flex-4.png" >
+
+
+
+
+
 
 
 
