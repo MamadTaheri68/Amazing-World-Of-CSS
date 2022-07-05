@@ -106,6 +106,31 @@ Static size(Absolute width || Absolute height)
  * inline
  * inline-block
  * flex
+    * flex-direction
+      * `row` 
+      * `row-reverse` 
+      * `column` 
+      * `column-reverse` 
+
+    ### flex axis:
+
+      * #### main
+
+
+        <img src="./images/flex-1.png" >
+
+
+        <img src="./images/flex-2.png" >
+
+      * #### cross
+
+        <img src="./images/flex-3.png" >
+
+
+        <img src="./images/flex-4.png" >
+
+
+
  * grid
 
 ## Overflow
