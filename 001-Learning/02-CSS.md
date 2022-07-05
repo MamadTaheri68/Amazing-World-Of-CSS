@@ -169,12 +169,9 @@ Static size(Absolute width || Absolute height)
 
 
     ### 9-flex-shrink
-
-
-
-
-
-
+      This property is the opposite of flex-grow. It handles smaller sizes. Higher shrink will shrink faster
+    ### 10-shorthand flex 
+      order of values: flex-grow, flex-shrink, flex-basis
 
 
 
