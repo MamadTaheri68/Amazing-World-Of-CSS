@@ -138,10 +138,10 @@ Static size(Absolute width || Absolute height)
     
     ### 4-align-items
       This is the cross axis selector
-      * flex-start : `Default`
+      * flex-start 
       * center
       * flex-end
-      * stretch
+      * stretch : `Default`
 
     ### 5-flex-wrap
       This property switches flex container between one-line and multi-line
