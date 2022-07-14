@@ -213,7 +213,55 @@ Static size(Absolute width || Absolute height)
 
 ## Transition
 
+### properties
+* transition (shorthand)
+  *  transition: <`property`> <`duration`> <`timing-function`> <`delay`>;
+* transition-delay
+* transition-duration
+* transition-property
+* transition-timing-function
+  * ease 
+  * linear  
+  * ease-in 
+  * ease-out 
+  * ease-in-out 
+  * cubic-bezier(n,n,n,n) 
+### Examples
+
+      transition: width 2s linear 1s;
+
+      transition: all 0.5s ease-in-out;
+
+
 ## Transform
+ 
+
+* transform: none;
+
+* transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
+* transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+* transform: perspective(17px);
+* transform: rotate(0.5turn);
+* transform: rotate(180deg)
+* transform: rotate3d(1, 2.0, 3.0, 10deg);
+* transform: rotateX(10deg);
+* transform: rotateY(10deg);
+* transform: rotateZ(10deg);
+* transform: translate(12px, 50%);
+* transform: translate3d(12px, 50%, 3em);
+* transform: translateX(2em);
+* transform: translateY(3in);
+* transform: translateZ(2px);
+* transform: scale(2, 0.5);
+* transform: scale3d(2.5, 1.2, 0.3);
+* transform: scaleX(2);
+* transform: scaleY(0.5);
+* transform: scaleZ(0.3);
+* transform: skew(30deg, 20deg);
+* transform: skewX(30deg);
+* transform: skewY(1.07rad);
+
+
 
 ## CSS Flexbox
 
@@ -224,6 +272,18 @@ Static size(Absolute width || Absolute height)
 # 03 - Advanced
 
 ## Animation
+
+### Properties
+* animation
+* animation-delay
+* animation-direction
+* animation-duration
+* animation-fill-mode
+* animation-iteration-count
+* animation-name
+* animation-play-state
+* animation-timeline
+* animation-timing-function
 
 ## Media Query
 
