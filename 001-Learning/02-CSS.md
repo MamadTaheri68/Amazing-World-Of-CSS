@@ -232,6 +232,8 @@ Static size(Absolute width || Absolute height)
 
       transition: all 0.5s ease-in-out;
 
+      transition: transform 0.5s cubic-bezier(0.7, 0.04, 0.66, 1.71);
+
 
 ## Transform
  
