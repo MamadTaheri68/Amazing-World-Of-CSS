@@ -142,14 +142,37 @@ Static size(Absolute width || Absolute height)
       * center
       * flex-end
       * stretch : `Default`
+      * baseline 
 
-    ### 5-flex-wrap
+      <img src="./images/flex-align-items.PNG" />
+
+
+    ### 5-align-content  
+      This is the main axis selector that accepts properties just like justify-content
+      * flex-start
+      * center
+      * flex-end
+      * space-between
+      * space-around
+      * space-evenly
+
+
+    ### 6-align-self
+      This is the cross axis selector for the selected element itself- not the childrens!!!!!
+      * flex-start 
+      * center
+      * flex-end
+      * stretch
+      * baseline 
+
+
+    ### 7-flex-wrap
       This property switches flex container between one-line and multi-line
       * wrap
       * nowrap : `Default`
       * wrap-reverse
 
-    ### 6-flex-flow  
+    ### 8-flex-flow  
       This property combines flex-direction & flex-wrap like this:  <`flex-direction`> <`flex-wrap`> 
       * row
       * column
@@ -160,26 +183,30 @@ Static size(Absolute width || Absolute height)
       * column wrap
       * column nowrap
 
-    ### 7-flex-basis
+    ### 9-flex-basis
       This property defines the size of any item according to the available space. It's initial value is: `auto`.
       * Example: 
 
             flex-basis: 200px
 
-    ### 8-flex-grow
+    ### 10-flex-grow
       This property defines the grow size in main axis from the flex-basis. It will stretch the item to the available space
 
-    ### 9-flex-shrink
+    ### 11-flex-shrink
       This property is the opposite of flex-grow. It handles smaller sizes. Higher shrink will shrink faster
     
-    ### 10-shorthand flex 
+    ### 12-shorthand flex 
       order of values: <`flex-grow`> <`flex-shrink`> <`flex-basis`>
 
-    ### 11-gap
+    ### 13-gap
       specifying the size of gutters, which is the space between rows and columns
       * gap
       * row-gap
       * column-gap
+
+
+     ### 14-Order
+      Specifying the order of each item.
 
 
 
