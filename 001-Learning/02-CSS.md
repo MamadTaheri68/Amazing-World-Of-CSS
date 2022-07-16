@@ -150,7 +150,7 @@ Static size(Absolute width || Absolute height)
       * wrap-reverse
 
     ### 6-flex-flow  
-      This property combines flex-direction & flex-wrap   `flex-direction and/or flex-wrap`
+      This property combines flex-direction & flex-wrap like this:  <`flex-direction`> <`flex-wrap`> 
       * row
       * column
       * wrap
@@ -162,6 +162,9 @@ Static size(Absolute width || Absolute height)
 
     ### 7-flex-basis
       This property defines the size of any item according to the available space. It's initial value is: `auto`.
+      * Example: 
+
+            flex-basis: 200px
 
     ### 8-flex-grow
       This property defines the grow size in main axis from the flex-basis. It will stretch the item to the available space
@@ -170,7 +173,7 @@ Static size(Absolute width || Absolute height)
       This property is the opposite of flex-grow. It handles smaller sizes. Higher shrink will shrink faster
     
     ### 10-shorthand flex 
-      order of values: flex-grow, flex-shrink, flex-basis
+      order of values: <`flex-grow`> <`flex-shrink`> <`flex-basis`>
 
     ### 11-gap
       specifying the size of gutters, which is the space between rows and columns
